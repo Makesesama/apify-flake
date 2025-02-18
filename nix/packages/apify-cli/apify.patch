@@ -1,0 +1,10 @@
+--- a/package.json
++++ b/package.json
+@@ -171,7 +171,6 @@
+         "node": "22.14.0",
+         "yarn": "4.6.0"
+     },
+-    "packageManager": "yarn@4.6.0",
+     "lint-staged": {
+         "*": "biome format --write --no-errors-on-unmatched",
+         "*.{mjs,js,ts}": "eslint --fix --ext mjs,js,ts",
